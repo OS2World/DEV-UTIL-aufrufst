@@ -1,0 +1,11 @@
+(* nicht editieren ! *)
+var
+  sprach_start:longint;
+  textz_Stapelspeicher__  :^string;
+  textz_Quelltextzeile  :^string;
+  textz_Laufzeitfehler_  :^string;
+  textz__bei_  :^string;
+  textz_weiter_mit_Tastendruck  :^string;
+  textz_programmstart  :^string;
+  textz_Delta  :^string;
+  textz_erwartet_in_der_Entwicklungsumgebung  :^string;

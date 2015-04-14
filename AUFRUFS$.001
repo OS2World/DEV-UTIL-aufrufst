@@ -1,0 +1,23 @@
+(* nicht editieren ! *)
+procedure sprach_modul;assembler;(*&FRAME-*) (*&USES NONE*) (*$S-*)
+  asm
+    db   7,'<SPRA2>'
+    db   4,'ENDE'
+    dw   8
+    db  15,'Stack memory: $'
+    db  17,'Stapelspeicher: $'
+    db  11,'Source line'
+    db  14,'Quelltextzeile'
+    db  14,'Runtime error '
+    db  15,'Laufzeitfehler '
+    db   5,' at $'
+    db   6,' bei $'
+    db  20,'Press a key to quit.'
+    db  24,'Abbruch mit Tastendruck.'
+    db  20,'Code base address: $'
+    db  25,'Programmanfangsadresse: $'
+    db  11,' -> delta: '
+    db  15,' -> Differenz: '
+    db  32,' -> excpected by compiler/IDE: $'
+    db  43,' -> erwartet in der Entwicklungsumgebung: $'
+  end;
